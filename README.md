@@ -10,7 +10,7 @@ Busy people who don't time to cook or don't like it.
 One-page webpage containing information provided by Omnifood, with simple navigation.
 
 #Content:
-provided by Omnifoodin form of a text document and a couple of images.
+provided by Omnifood in form of a text document and a couple of images.
 
 #Navigation:
 Also provided by Omnifood in a text document.
