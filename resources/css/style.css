@@ -19,6 +19,14 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+.clearfix {zoom: 1}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+    /* height: 0; */
+    /* visibility: hidden; */
+}
 /* --------------------------------- */
 /*        REUSABLE COMPONENTS        */
 /* --------------------------------- */
@@ -251,13 +259,54 @@ header {
 /* --------------------------------- */
 /*         HOW IT WORKS SECTION      */
 /* --------------------------------- */
- 
-.app-screen {
-    width: auto;
-    height: 400px;
-    margin-left: 100px;
+
+.section-steps {
+    background-color: #f4f4f4; 
 }
 
-.steps {
-    line-height: 30px;
+.steps-box:first-child {
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 30px;
+    
 }
+
+.steps-box:last-child {
+    padding-left: 3%;
+    margin-top: 70px;
+}
+
+.app-screen {
+    width: 40%;
+    /* height: 400px;
+    margin-left: 100px; */
+}
+
+.works-step {
+    margin-bottom: 50px;
+}
+
+.works-step div {
+    color: #e67e22;
+    border: 2px solid #e67e22;
+     display: inline-block;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding-top: 10px;
+    float: left;
+    font-size: 130%;
+    margin-right: 25px;
+}
+
+.works-step:last-of-type {
+    margin-bottom: 80px;
+}
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
