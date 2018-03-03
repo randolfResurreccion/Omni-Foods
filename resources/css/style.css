@@ -247,4 +247,17 @@ header {
     opacity: 1;
 }
 
+
+/* --------------------------------- */
+/*         HOW IT WORKS SECTION      */
+/* --------------------------------- */
  
+.app-screen {
+    width: auto;
+    height: 400px;
+    margin-left: 100px;
+}
+
+.steps {
+    line-height: 30px;
+}
