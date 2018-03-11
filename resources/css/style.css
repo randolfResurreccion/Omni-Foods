@@ -197,6 +197,7 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)), url(img/hero.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     height: 100vh;
 }
 
@@ -366,17 +367,47 @@ header {
     margin-bottom: 15px;
 }
 
+/* --------------------------------- */
+/*        TESTIMONIALS SECTION       */
+/* --------------------------------- */
 
-
-/* .twitter-link {
-    text-decoration: none;
-    color: rgb(62, 62, 233);
-} */
-
-/* .cities-box {
-    width: 70%;
+.section-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(img/back-customers.jpg);
+    background-size: cover;
+    color: #f4f4f4;
+    background-attachment: fixed;
 }
 
-.cities-img {
-    width: 25%;
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+blockquote:before {
+    content: "\201c";
+    font-size: 500%;
+    position: absolute;
+    top: -5px;
+    left: -10px;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+/* cite:before {
+    content: "A";
+    font-size: 400%;
 } */
+
+cite img {
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
