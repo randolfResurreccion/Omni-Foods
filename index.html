@@ -407,14 +407,14 @@
         </div>
         <div class="row">
             <!-- FORM -->
-            <form action="post" class="contact-form">
+            <form method="post" action="#" class="contact-form">
 
                 <!-- NAME -->
                 <div class="row">
                     <div class="col span-1-of-3">
                         <label for="name">Name</label>
                     </div>
-                    <div class="col span-2-of-3">
+                    <div class="col span-2-of-3 form-box">
                         <input type="text" name="name" id="name" placeholder="Your name" required>
                     </div>
                 </div>
@@ -424,7 +424,7 @@
                     <div class="col span-1-of-3">
                         <label for="email">Email</label>
                     </div>
-                    <div class="col span-2-of-3">
+                    <div class="col span-2-of-3 form-box">
                         <input type="email" name="email" id="email" placeholder="Your email" required>
                     </div>
                 </div>
@@ -434,7 +434,7 @@
                     <div class="col span-1-of-3">
                         <label for="find-us">How did you find us?</label>
                     </div>
-                    <div class="col span-2-of-3">
+                    <div class="col span-2-of-3 form-box">
                         <select name="find-us" id="find-us">
                             <option value="friends" selected>Friends</option>
                             <option value="search">Search engine</option>
@@ -447,10 +447,10 @@
                 <!-- NEWSLETTER -->
                 <div class="row">
                     <div class="col span-1-of-3">
-                        <label for="news">Newsletter?</label>
+                        <label for="">Newsletter?</label>
                     </div>
-                    <div class="col span-2-of-3">
-                        <input type="checkbox" name="news" id="news" checked> Yes, please
+                    <div class="col span-2-of-3 form-box">
+                        <input type="checkbox" name="news" id="news" checked> <br> Yes, please
                     </div>
                 </div>
 
@@ -459,7 +459,7 @@
                     <div class="col span-1-of-3">
                         <label for="">Drop us a line</label>
                     </div>
-                    <div class="col span-2-of-3">
+                    <div class="col span-2-of-3 form-box">
                         <textarea name="message" placeholder="Your message" id="" cols="30" rows="10"></textarea>
                     </div>
                 </div>
@@ -467,13 +467,12 @@
                 <!-- SUBMIT  -->
                 <div class="row">
                     <div class="col span-1-of-3">
-                        <label for="submit"></label>
+                        <label for="submit">&nbsp;</label>
                     </div>
                     <div class="col span-2-of-3">
                         <input type="submit" value="Send it!">
                     </div>
                 </div>
-
             </form>
         </div>
     </section>
