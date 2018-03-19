@@ -35,7 +35,7 @@ html {
 /* --------------------------------- */
 
 .row {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -480,50 +480,30 @@ cite img {
 /* --------------------------------- */
 /*        FORM SECTION       */
 /* --------------------------------- */
-
 .contact-form {
-    /* width: 60%; */
-    /* margin: 0 auto; */
-    /* width: 100%; */
-    /* margin-left: 15%; */
-    /* margin-right: 15%; */
-    /* margin: 0 auto; */
-    /* color: red; */
+    width: 60%;
+    margin: 0 auto;
 }
 
 input[type=text],
 input[type=email],
 select,
 textarea {
-    width: 65%;
-    /* width: 100%; */
+    width: 100%;
     padding: 7px;
     border-radius: 3px;
     border: 1px solid #ccc;
 }
 
-
-
 textarea {
     height: 100px;
-} 
+}
 
 input[type=checkbox] {
     margin: 10px 5px 10px 0;
 }
 
-
-label {
-    /* width: 60%; */
-    padding-left: 130px;
-    /* margin-right: 100px; */
-}
-
-
-.form-box {
-    width: 60%;
-    /* padding-left: 75px; */
-}
+*:focus {outline: none;}
 
 /* --------------------------------- */
 /*        FOOTER SECTION             */
