@@ -94,8 +94,8 @@ h2:after{
 .long-copy {
     line-height: 145%;
     width: 69%;
-    margin: 0 auto;
-    /* margin-left: 15%; */
+    /* margin: 0 auto; */
+    margin-left: 15%;
 }
 
 .box p {
@@ -306,6 +306,10 @@ header {
     background-color: #f4f4f4; 
 }
 
+.steps-box {
+    margin-top: 30px;
+}
+
 .steps-box:first-child {
     text-align: right;
     padding-right: 3%;
@@ -452,8 +456,7 @@ cite img {
     font-size: 300%;
     margin-bottom: 10px;
     font-weight: 100;
-    color: #e67e22;
-    
+    color: #e67e22;   
 }
 
 .plan-price span {
