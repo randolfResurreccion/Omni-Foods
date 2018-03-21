@@ -218,14 +218,23 @@ header {
     width: auto;
     float: left;
     margin-top: 20px;
-    /* margin-top: 85px; */
-    /* margin-left: 100px; */
+
 }
 
+.logo-black { 
+    display: none;
+    height: 50px;
+    width: auto;
+    float: left;
+    margin: 5px 0;
+ }
+
+
+/* Main navi */
 .main-nav {
     float: right;
     list-style: none;
-    margin-top: 60px;
+    margin-top: 55px;
 }
 
 .main-nav li {
@@ -240,14 +249,37 @@ header {
     text-transform: uppercase;
     font-size: 90%;
     padding: 8px 0;
-    /* font-weight: 150; */
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;  
 }
 
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
-    transition: border-bottom 0.2s;
+  
 }
+
+/* Sticky navi */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.90);
+    box-shadow: 0 2px 2px #efefef;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 17px 0;
+    color: #555;
+}
+
+.main-nav { margin-top: 18px; }
+
+.sticky .logo { display: none; }
+.sticky .logo-black { display: block; }
 
 /* --------------------------------- */
 /*      FEATURES SECTION            */
